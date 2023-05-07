@@ -1,0 +1,113 @@
+/* Navbar */
+.navbar {
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+/* Hero Page */
+#hero {
+  background-image: url("foto2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+/* Article */
+.container {
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p,
+ul {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-justify: auto;
+}
+
+.btn-primary {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Related Articles */
+.list-group-item {
+  background-color: #f8f9fa;
+  border-color: #dee2e6;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+#about {
+  background-color: #dee2e6;
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 30px;
+}
+
+#about hr {
+  border-top: 3px solid #007bff;
+  width: 50px;
+  margin-bottom: 30px;
+}
+
+#about img.rounded-circle {
+  margin-bottom: 30px;
+}
+
+#about h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 0;
+}
