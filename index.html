@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Blog</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">TechnoBlog.com</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bus">Bus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#input-output">Input/Output</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Page -->
+    <div id="hero" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Selamat Datang di Blog Saya!</h1>
+        <p class="lead">Alasan Blog ini dibuat adalah untuk memberikan ilmu pengetahuan bagi para pembaca, terutama di bidang teknologi.</p>
+        <a class="btn btn-primary btn-lg" href="#bus" role="button">Learn more</a>
+      </div>
+    </div>
+
+    <!-- Article 1: Bus -->
+    <div id="bus" class="container">
+      <h2 class="text-center mb-4">Bus</h2>
+      <div class="row">
+        <div class="col-md-8">
+          <img class="img-fluid mb-4" src="Bus.jpg" alt="Bus Image" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis, odio sed pharetra dapibus, dolor eros faucibus dolor, nec finibus lectus urna vel mauris. Praesent a lorem eget ipsum feugiat sodales a vel orci.</p>
+          <p>
+            Peripheral merupakan perangkat tambahan yang terhubung dengan sistem CPU melalui modul I/O dan saluran kontrol, status, serta data. Modul I/O ini bertindak sebagai pengendali yang memfasilitasi pertukaran informasi antara CPU
+            dan peripheral, seperti keyboard, mouse, printer, dan sebagainya. Dalam proses pengiriman data, modul I/O menggunakan saluran kontrol untuk mengontrol sinyal-sinyal dan memberikan status untuk menunjukkan kondisi perangkat
+            peripheral tersebut. Sedangkan saluran data digunakan untuk mengirimkan data antara CPU dan peripheral yang terhubung.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3>Related Articles</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a href="#input-output">Input/Output</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Article 2: Input/Output -->
+    <div id="input-output" class="container">
+      <h2 class="text-center mb-4">Input/Output</h2>
+      <div class="row">
+        <div class="col-md-8">
+          <img class="img-fluid mb-4" src="f3927-input_output.gif" alt="Input/Output Image" />
+          <h3>Apa itu I/O?</h3>
+          <p>
+            Input & Output (I/O) adalah proses pertukaran data antara sistem komputer dan perangkat luar seperti keyboard, mouse, printer, hard drive, dan perangkat lainnya. I/O terjadi ketika data dipindahkan dari perangkat luar ke dalam
+            sistem komputer atau sebaliknya, dari sistem komputer ke perangkat luar. Tujuannya adalah untuk memungkinkan sistem komputer berinteraksi dengan dunia luar, baik untuk menerima input dari pengguna maupun untuk mengirimkan output
+            kepada pengguna atau perangkat lain. I/O adalah salah satu fungsi dasar dari sebuah sistem komputer dan menjadi bagian penting dalam perancangan arsitektur komputer.
+          </p>
+          <h3>Kategori:</h3>
+          <ul>
+            <p>
+              <li>Human Readable Machine : Perangkat fisik sebagai alat komunikasi manusia / pengguna komputer. (monitor, keyboard, mouse, printer, joystick, diskdrive)</li>
+              <li>Machine Readable Machine : Perangkat fisik yang berhubungan dengan peralatan / hanya bisa terbaca oleh komputer. (modul sensor dan tranduser untuk monitoring dan kontrol suatu peralatan atau system, Piringan disk).</li>
+              <li>Communication : Perangkat yang digunakan untuk komunikasi jarak jauh. (NIC, Modem).</li>
+            </p>
+          </ul>
+          <h3>I/O Port</h3>
+          <p>
+            I/O port adalah bagian dari modul I/O yang bertanggung jawab untuk menghubungkan perangkat eksternal dengan sistem komputer melalui jalur masukan (input) dan keluaran (output). I/O port terdiri dari beberapa saluran atau line
+            yang dapat digunakan untuk mengirim atau menerima sinyal digital antara perangkat eksternal dan CPU. Setiap saluran pada I/O port memiliki fungsi yang berbeda-beda, misalnya saluran data untuk mentransfer data, saluran kontrol
+            untuk mengatur operasi I/O, dan saluran status untuk memberikan informasi mengenai status perangkat eksternal. Dalam sistem komputer, I/O port penting karena memungkinkan perangkat eksternal seperti keyboard, mouse, printer,
+            atau monitor dapat berkomunikasi dengan CPU dan berinteraksi dengan pengguna.
+          </p>
+          <h3>Konfigurasi I/O</h3>
+          <p>Tempat penyimpan data sementara dalam CPU selama proses eksekusi. Apabila terjadi proses eksekusi data dalam register dikirim ke ALU untuk diproses, hasil eksekusi nantinya diletakkan ke register kembali.</p>
+          <h4>AC / Unit control</h4>
+          <p>
+            AC/Unit Control adalah sebuah sistem kendali atau kontrol yang digunakan untuk mengatur dan mengendalikan suhu dan kelembaban di dalam ruangan dengan menggunakan AC (Air Conditioner) atau perangkat pendingin lainnya. Sistem
+            kontrol ini biasanya terdiri dari beberapa komponen, seperti sensor suhu dan kelembaban, termostat, dan unit kontrol (control unit).
+          </p>
+          <h4>FGI & FGO Flags</h4>
+          <p>
+            FGI (Flag Global Interrupt) dan FGO (Flag Global Overflow) adalah dua flag yang terdapat pada mikrokontroler. FGI merupakan flag yang menandakan apakah ada permintaan interrupt yang sedang terjadi pada saat tertentu, sedangkan
+            FGO merupakan flag yang menandakan apakah terjadi overflow pada hasil operasi aritmatika atau logika pada register tertentu. Kedua flag ini sangat penting dalam menjalankan program pada mikrokontroler, karena dapat mempengaruhi
+            alur program dan operasi pada register.
+          </p>
+          <h4>Proses I/O (Input/Output)</h4>
+          <p>Proses I/O (Input/Output) adalah proses pertukaran data antara CPU dan perangkat I/O. Berikut adalah beberapa poin yang terkait dengan proses I/O:</p>
+          <ul>
+            <li>CPU akan mengirimkan perintah I/O melalui bus kontrol dan bus alamat ke modul I/O. Perintah ini memberi tahu modul I/O apa yang harus dilakukan, misalnya membaca data atau menuliskan data ke suatu perangkat.</li>
+            Setelah menerima perintah, modul I/O akan mengatur pengiriman atau penerimaan data melalui port I/O yang terkait.
+
+            <li>Data dikirim atau diterima melalui saluran data di bus data. Bus data menghubungkan modul I/O dengan CPU dan perangkat I/O.</li>
+
+            <li>Setelah selesai melakukan operasi I/O, modul I/O akan memberi tahu CPU bahwa operasi telah selesai melalui saluran kontrol di bus kontrol.</li>
+            <li>CPU dapat mengulangi proses I/O untuk perangkat yang sama atau untuk perangkat yang berbeda.</li>
+          </ul>
+          <p>Proses I/O menjadi sangat penting dalam sistem komputer karena memungkinkan CPU untuk berkomunikasi dengan perangkat I/O seperti keyboard, mouse, printer, dan lain sebagainya.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Related Articles</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a href="#bus">Bus</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>About</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mx-auto text-center">
+            <img class="rounded-circle" src="Rendy.jpeg" alt="Profile picture" width="200" height="200" />
+            <h4>Rendy Radithya Supandi</h4>
+            <p>21 tahun</p>
+            <p>Mahasiswa Telkom University Kampus Jakarta</p>
+            <p>NIM : 1201225038</p>
+            <p>22-SI-002</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/esm/popper-base.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  </body>
+
+  <footer>
+    <p>&copy; 2023 Rendy. All rights reserved.</p>
+  </footer>
+</html>
