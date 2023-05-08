@@ -36,11 +36,17 @@ h2 {
 }
 
 p,
-ul {
+ul,
+ol {
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 20px;
   text-justify: auto;
+  text-align: justify;
+}
+
+.nyusahin {
+  margin-left: 70px;
 }
 
 .btn-primary {
@@ -106,8 +112,10 @@ footer {
   font-weight: 400;
   color: #6c757d;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 footer p {
   margin: 0;
+  text-align: center;
 }

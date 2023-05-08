@@ -29,7 +29,7 @@
             <a class="nav-link" href="#input-output">Input/Output</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#about">About Me</a>
           </li>
         </ul>
       </div>
@@ -50,12 +50,153 @@
       <div class="row">
         <div class="col-md-8">
           <img class="img-fluid mb-4" src="Bus.jpg" alt="Bus Image" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis, odio sed pharetra dapibus, dolor eros faucibus dolor, nec finibus lectus urna vel mauris. Praesent a lorem eget ipsum feugiat sodales a vel orci.</p>
+          <h3>Apa Itu Bus ?</h3>
+          <ul>
+            <li>Bus data adalah lintasan yang digunakan untuk memungkinkan perpindahan data antara modul dalam sebuah sistem komputer.</li>
+            <li>Bus data terdiri dari sejumlah saluran yang berfungsi sebagai jalur transfer data. Jumlah saluran dalam bus data berkaitan dengan panjang word yang ditransfer, seperti 8, 16, atau 32 saluran.</li>
+          </ul>
+          <p>Bus memiliki beberapa jenis, di antaranya adalah <b>bus</b> ,<b>address bus</b> ,<b> dan control bus</b>.</p>
+          <ul>
+            <li>Bus Data bus digunakan untuk mentransfer data antara CPU dan memori atau perangkat I/O.</li>
+            <li>Address bus digunakan untuk mengirimkan alamat memori atau perangkat I/O yang ingin diakses.</li>
+            <li>Control bus digunakan untuk mengontrol operasi bus seperti pembacaan dan penulisan data.</li>
+          </ul>
+          <p>Data bus, address bus, dan control bus adalah tiga jenis bus yang membentuk sistem bus pada arsitektur komputer. Ketiga bus ini memiliki fungsi dan karakteristik yang berbeda satu sama lain.</p>
+          <h3>Jenis - Jenis Bus</h3>
+          <ol>
+            <li>
+              Data Bus Data bus adalah jenis bus yang digunakan untuk mentransfer data antara CPU dan memori atau perangkat I/O. Data bus ini juga digunakan untuk menghubungkan CPU dengan bus ekspansi. Lebar bus data menentukan jumlah bit
+              data yang dapat ditransfer pada satu waktu, sehingga semakin lebar bus data maka semakin cepat pula transfer data yang dapat dilakukan.
+            </li>
+            <li>
+              Address Bus Address bus adalah jenis bus yang digunakan untuk mengirimkan alamat memori atau perangkat I/O yang ingin diakses oleh CPU. Lebar bus alamat menentukan jumlah bit alamat yang dapat diakses oleh CPU, sehingga
+              semakin lebar bus alamat maka semakin banyak memori atau perangkat I/O yang dapat diakses oleh CPU.
+            </li>
+            <li>
+              Control Bus Control bus adalah jenis bus yang digunakan untuk mengontrol operasi bus seperti pembacaan dan penulisan data. Control bus terdiri dari beberapa sinyal kontrol seperti sinyal pembacaan tulisan, sinyal request,
+              sinyal acknowledge, dan sinyal interrupt. Sinyal kontrol ini digunakan untuk mengatur operasi bus dan menentukan tindakan yang harus dilakukan oleh CPU atau perangkat I/O.
+            </li>
+          </ol>
           <p>
-            Peripheral merupakan perangkat tambahan yang terhubung dengan sistem CPU melalui modul I/O dan saluran kontrol, status, serta data. Modul I/O ini bertindak sebagai pengendali yang memfasilitasi pertukaran informasi antara CPU
-            dan peripheral, seperti keyboard, mouse, printer, dan sebagainya. Dalam proses pengiriman data, modul I/O menggunakan saluran kontrol untuk mengontrol sinyal-sinyal dan memberikan status untuk menunjukkan kondisi perangkat
-            peripheral tersebut. Sedangkan saluran data digunakan untuk mengirimkan data antara CPU dan peripheral yang terhubung.
+            Ketiga jenis bus ini bekerja bersama-sama untuk memungkinkan CPU untuk mengakses memori dan perangkat I/O pada sistem komputer. Data bus digunakan untuk mentransfer data, address bus digunakan untuk mengakses alamat memori atau
+            perangkat I/O, dan control bus digunakan untuk mengatur operasi bus. Semua bus ini sangat penting dalam arsitektur komputer karena tanpa bus yang tepat, sistem komputer tidak dapat berfungsi dengan baik.
           </p>
+          <h3>Bagian Saluran Sistem Bus</h3>
+          <ul>
+            <li><b>Saluran data</b></li>
+            <li><b>Saluran alamat</b></li>
+            <li><b>Saluran control</b></li>
+          </ul>
+          <h3>Saluran Data</h3>
+          <ul>
+            <li>Saluran data adalah bagian dari bus data yang digunakan untuk mengirimkan data antar modul dalam sebuah sistem komputer.</li>
+            <li>Saluran data memiliki lebar yang sama dengan lebar bus data, yaitu diukur dalam satuan bit seperti 8, 16, atau 32 bit.</li>
+            <li>Jumlah saluran data dalam bus data sangat penting karena mempengaruhi kecepatan transfer data antar modul. Semakin banyak jumlah saluran data, semakin cepat transfer data dapat dilakukan.</li>
+            <li>Transfer data dalam saluran data dilakukan dengan menggunakan sinyal listrik yang berbeda-beda. Sinyal ini digunakan untuk merepresentasikan bit data, baik dalam bentuk 0 atau 1.</li>
+            <li>Pada bus data yang lebih lebar, setiap bit dalam data ditransfer melalui saluran data yang berbeda. Oleh karena itu, semakin lebar bus data, semakin banyak saluran data yang dibutuhkan.</li>
+          </ul>
+
+          <h3>Saluran Alamat</h3>
+          <ul>
+            <li>Saluran alamat merupakan bagian dari bus pada komputer yang bertugas untuk mentransfer alamat memori atau perangkat I/O.</li>
+            <li>Saluran alamat mengirimkan alamat ke memori atau perangkat I/O agar dapat diakses oleh CPU atau perangkat lainnya.</li>
+            <li>Setiap alamat dalam memori atau perangkat I/O memiliki nomor unik yang dikenal sebagai alamat fisik.</li>
+            <li>Saluran alamat pada komputer memiliki lebar yang ditentukan oleh jumlah bit yang digunakan untuk mentransfer alamat. Semakin banyak bit pada saluran alamat, semakin besar pula ruang alamat yang dapat diakses.</li>
+            <li>Jumlah saluran alamat pada komputer juga mempengaruhi kapasitas maksimal memori yang dapat diakses oleh sistem komputer.</li>
+            <li>Selain digunakan untuk mengakses memori, saluran alamat juga digunakan untuk mengakses perangkat I/O seperti keyboard, mouse, printer, dan lain-lain.</li>
+            <li>Saluran alamat bekerja secara bersamaan dengan saluran data dan saluran kontrol untuk membentuk sebuah bus yang digunakan untuk mentransfer data antara CPU, memori, dan perangkat I/O.</li>
+          </ul>
+          <h3>Saluran Kontrol</h3>
+          <ul>
+            <li>Saluran kontrol berfungsi sebagai pengatur aliran data dan sinyal kontrol antara CPU dan perangkat lain di dalam komputer.</li>
+            <li>Saluran kontrol juga bertanggung jawab untuk mengirimkan sinyal kontrol seperti sinyal clock, reset, dan sinyal interrupt kepada perangkat lain.</li>
+            <li>Saluran kontrol terdiri dari berbagai macam sinyal kontrol yang dihasilkan oleh CPU seperti sinyal pembacaan data, sinyal penulisan data, sinyal pembacaan alamat, dan sinyal penulisan alamat.</li>
+            <li>Dalam sebuah komputer, saluran kontrol juga memiliki peran dalam mengatur penggunaan saluran data dan saluran alamat, sehingga data dapat diproses dengan benar.</li>
+            <li>
+              Kecepatan saluran kontrol sangat penting dalam menentukan kinerja sebuah sistem komputer. Semakin cepat saluran kontrol, semakin cepat pula data dan sinyal kontrol dapat diproses oleh CPU dan perangkat lain di dalam sistem
+              komputer.
+            </li>
+          </ul>
+          <h3>Element Perancangan bus</h3>
+          <p>
+            Elemen perancangan bus pada arsitektur komputer terdiri dari beberapa komponen, yaitu bus data, bus alamat, control bus, dan timing. Bus data adalah saluran yang digunakan untuk mentransfer data dari satu perangkat ke perangkat
+            lain. Bus alamat adalah saluran yang digunakan untuk mentransfer alamat memori atau alamat port I/O untuk diakses oleh CPU atau perangkat lainnya. Control bus adalah saluran yang digunakan untuk mengontrol bus data, bus alamat,
+            dan perangkat-perangkat dalam sistem komputer. Sedangkan timing adalah mekanisme yang digunakan untuk mengatur kecepatan transfer data antar perangkat pada bus.
+          </p>
+          <p>
+            Selain itu, elemen perancangan bus juga dapat meliputi parameter dasar perancangan bus seperti lebar bus, jenis transfer data, dan metode arbitrasi. Lebar bus adalah jumlah bit yang dapat ditransfer pada satu waktu, sedangkan
+            jenis transfer data adalah jenis operasi yang dilakukan pada bus seperti read, write, read-modify-write, dan lain-lain. Metode arbitrasi digunakan untuk menentukan prioritas antara perangkat yang menggunakan bus.
+          </p>
+          <p>
+            Semua elemen perancangan bus harus dirancang secara matang untuk memastikan bahwa bus dapat bekerja secara efektif dan sesuai dengan kebutuhan sistem komputer. Kesalahan dalam merancang bus dapat menyebabkan kinerja sistem
+            komputer yang buruk dan dapat menghambat operasi sistem secara keseluruhan. Oleh karena itu, pemilihan dan desain elemen perancangan bus sangat penting dalam arsitektur komputer.
+          </p>
+          <h3>Jenis - jenis Bus</h3>
+          <ul>
+            <li><b>Dedicated Bus</b></li>
+            <li><b>Multiplexed Bus</b></li>
+          </ul>
+          <h3>Dedicated Bus</h3>
+          <p>
+            Dedicated bus adalah jenis bus pada arsitektur komputer yang dirancang untuk tujuan tertentu atau spesifik. Bus ini hanya digunakan untuk satu fungsi atau tujuan saja. Contohnya adalah bus yang digunakan untuk mentransfer data
+            dari hard disk ke CPU pada komputer desktop atau laptop.
+          </p>
+          <p>
+            Keuntungan dari dedicated bus adalah kinerja yang lebih cepat dan efisien karena bus hanya digunakan untuk tujuan tertentu dan tidak digunakan untuk keperluan lainnya. Selain itu, dedicated bus dapat mengurangi kemungkinan
+            konflik atau persaingan antara perangkat yang menggunakan bus. Namun, kelemahan dari dedicated bus adalah tidak fleksibel dan hanya digunakan untuk tujuan yang telah ditentukan sebelumnya, sehingga tidak dapat digunakan untuk
+            tujuan lain tanpa perubahan perancangan yang signifikan.
+          </p>
+          <h3>Multiplexed Bus</h3>
+          <p>
+            Multiplexed bus adalah jenis bus pada arsitektur komputer yang digunakan untuk mentransfer data, alamat, dan sinyal kontrol melalui satu saluran fisik. Pada bus multiplexed, saluran fisik dapat digunakan secara bergantian oleh
+            beberapa sinyal, sehingga memungkinkan beberapa sinyal untuk digunakan pada waktu yang sama.
+          </p>
+          <p>
+            Keuntungan dari multiplexed bus adalah fleksibilitas dalam penggunaan saluran fisik yang terbatas dan menghemat jumlah saluran fisik yang diperlukan. Selain itu, multiplexed bus juga dapat digunakan untuk tujuan yang
+            berbeda-beda dengan hanya mengubah format paket data yang dikirimkan. Namun, kelemahan dari multiplexed bus adalah kompleksitas perancangan dan waktu yang dibutuhkan untuk mengirim dan menerima data lebih lama dibandingkan
+            dengan dedicated bus.
+          </p>
+          <h3>Metode Arbitrasi</h3>
+          <p>
+            Metode tersentralisasi pada perancangan bus mengandalkan satu pengontrol bus sentral atau arbiter untuk mengatur penggunaan bus oleh modul. Pengontrol bus sentral atau arbiter bertanggung jawab untuk memilih modul mana yang akan
+            memiliki akses ke bus pada suatu waktu tertentu. Pengontrol bus sentral ini dapat berupa modul I/O atau bagian fungsi CPU. Setiap modul akan mengajukan permintaan untuk menggunakan bus melalui pengontrol bus sentral, dan
+            pengontrol bus sentral akan memutuskan modul mana yang memiliki prioritas untuk mengakses bus terlebih dahulu.
+          </p>
+          <h3>Metode Timing-Asinkron</h3>
+          <p>
+            Metode Timing-Asinkron merupakan salah satu model pewaktuan yang digunakan dalam bus. Dalam metode ini, terjadinya event pada bus ditentukan oleh sebuah pewaktu yang sering disebut dengan clock. Setiap kali terjadi perubahan
+            siklus clock, maka terjadi transmisi 1-0 yang disebut dengan siklus waktu atau siklus bus. Semua perangkat modul pada bus dapat membaca atau mengetahui siklus clock yang terjadi. Model ini mudah diimplementasikan dan cukup
+            cepat, namun kurang fleksibel dalam menangani peralatan dengan kecepatan operasi yang berbeda. Oleh karena itu, model ini biasanya digunakan pada modul-modul yang sudah memiliki karakteristik yang jelas.
+          </p>
+          <p>
+            Meskipun memiliki kekurangan dalam menangani peralatan dengan kecepatan operasi yang berbeda, namun model pewaktuan sinkron cukup efektif dalam mengatasi masalah sinkronisasi data pada sistem. Dalam penggunaannya, dibutuhkan
+            koordinasi yang baik antara pengguna bus dan modul-modul yang terhubung pada bus, sehingga dapat meminimalkan terjadinya masalah pada sistem. Dalam pengaplikasiannya, metode pewaktuan sinkron banyak digunakan pada modul-modul
+            yang memiliki kecepatan operasi yang relatif sama, seperti pada penggunaan bus pada sebuah sistem mikroprosesor atau sistem mikrokontroler.
+          </p>
+          <h3>Lebar Bus</h3>
+          <p>
+            Lebar bus merupakan jumlah saluran atau jalur data yang tersedia pada sebuah bus. Lebar bus ini digunakan untuk menentukan berapa banyak bit data yang dapat ditransfer dalam satu waktu pada bus tersebut. Misalnya, jika suatu bus
+            memiliki lebar bus 16 bit, maka pada setiap siklus clock atau periode transfer data, bus tersebut dapat mentransfer 16 bit data secara bersamaan.
+          </p>
+          <p>
+            Lebar bus dapat dibedakan menjadi tiga jenis, yaitu lebar bus alamat, lebar bus data, dan lebar bus kontrol. Lebar bus alamat menentukan jumlah bit yang digunakan untuk mengalamatkan lokasi memori atau perangkat I/O, sedangkan
+            lebar bus data menentukan jumlah bit data yang dapat ditransfer pada setiap siklus bus. Lebar bus kontrol, di sisi lain, menentukan jumlah bit yang digunakan untuk mengontrol operasi bus, seperti sinyal start atau stop pada
+            transfer data. Semakin lebar bus, semakin banyak bit data yang dapat ditransfer secara bersamaan, namun juga semakin kompleks dan mahal desainnya.
+          </p>
+          <h3>Jenis - jenis transfer data</h3>
+          <p>
+            Operasi transfer data pada komputer merupakan proses penting yang memungkinkan pertukaran data antara berbagai modul komputer. Pada operasi baca (read), data diambil dari memori dan ditransfer ke CPU. Sebaliknya, pada operasi
+            tulis (write), data ditulis ke memori dari CPU. Terdapat juga operasi kombinasi seperti operasi read-modify-write, dimana data yang diambil dari memori diubah pada CPU dan kemudian ditulis kembali ke memori. Agar semua operasi
+            komputer dapat berjalan dengan baik, bus harus mampu menyediakan layanan saluran bagi semua operasi tersebut.
+          </p>
+          <h3>Contoh - Contoh Bus</h3>
+          <ul>
+            <li>Industry Standar Architecture (ISA)</li>
+            <li>Peripheral Component Interconnect (PCI)</li>
+            <li>Universal Standard Bus (USB)</li>
+            <li>Small Computer System Interface (SCSI)</li>
+            <li>Bus P1394 / Fire Wire</li>
+          </ul>
         </div>
         <div class="col-md-4">
           <h3>Related Articles</h3>
@@ -119,6 +260,145 @@
             <li>CPU dapat mengulangi proses I/O untuk perangkat yang sama atau untuk perangkat yang berbeda.</li>
           </ul>
           <p>Proses I/O menjadi sangat penting dalam sistem komputer karena memungkinkan CPU untuk berkomunikasi dengan perangkat I/O seperti keyboard, mouse, printer, dan lain sebagainya.</p>
+          <p>Beberapa alasan peripheral tidak terhubung langsung dengan bus :</p>
+          <ul>
+            <li>Kecepatan transfer data peripheral lebih lambat dari pada transfer data pada CPU maupun memori.</li>
+            <li>Format dan panjang data pada peripheral berbeda dengan CPU, sehingga perlu modul untuk menselaraskannya.</li>
+            <li>Peripheral seringkali beroperasi dalam lingkungan yang berbeda dengan CPU, seperti tingkat tegangan, kecepatan operasi, atau bahkan jenis komunikasi yang digunakan.</li>
+            <li>Peripheral seringkali memiliki sumber daya yang terbatas, seperti daya listrik atau memori</li>
+            <li>Metode operasi peripheral bervariasi ( tidak praktis apabila sistem komputer menangani berbagai macam sisem operasi peripheral ).</li>
+            <li>Adanya risiko interferensi atau gangguan elektromagnetik yang bisa terjadi apabila peripheral terhubung langsung dengan bus data dan alamat, sehingga perlu adanya isolasi atau penghalang yang mengurangi risiko tersebut.</li>
+          </ul>
+          <p>Untuk melakukan operasi I/O, CPU akan mengirimkan alamat untuk mengakses modul I/O dan perangkat peripheral yang terhubung.</p>
+          <h3>Perintah (Command) I/O</h3>
+          <p>Operasi I/O dibagi menjadi empat klasifikasi, yaitu:</p>
+          <ul>
+            <li>Kontrol: Melakukan aktivasi dan memberikan perintah kepada perangkat peripheral terkait.</li>
+            <li>Tes: CPU menguji kondisi, status, operasi, dan kesalahan modul I/O dan perangkat peripheral.</li>
+            <li>Baca: Mengambil data dari buffer internal untuk dikirim melalui bus setelah sinkronisasi kecepatan transfer data dilakukan.</li>
+            <li>Tulis: CPU memberikan perintah kepada modul I/O untuk mengambil data dari bus dan mengirimkannya ke perangkat peripheral yang dituju.</li>
+          </ul>
+
+          <h3>Teknik Operasi I/O</h3>
+          <ol>
+            <li><b>Programmed I/O</b></li>
+            <img class="nyusahin" src="foto3.png" alt="Programmed I/O" />
+            <li><b>Interrupt-Driven I/O</b></li>
+            <img src="foto4.png" alt="Interrupt-Driven I/O" />
+            <li><b>Direct Memory Access (DMA)</b></li>
+            <img src="foto5.png" alt="Direct Memory Access (DMA)" />
+          </ol>
+          <h3>Programmed I/O</h3>
+          <p>
+            Programmed I/O adalah metode transfer data antara CPU dan peripheral di mana CPU secara langsung mengontrol transfer data. Dalam metode ini, CPU akan mengeluarkan perintah I/O untuk mengaktifkan perangkat peripheral dan
+            mengambil atau menuliskan data ke dalam buffer internal. Proses ini dilakukan secara berurutan dan terus-menerus oleh CPU sampai transfer data selesai.
+          </p>
+          <p>
+            <b>Kelemahan Programmed I/O </b>terletak pada kinerja yang lambat karena adanya ketergantungan pada CPU untuk menangani seluruh proses pengiriman data. Hal ini dapat menghambat kinerja CPU dan memperpanjang waktu eksekusi
+            program. Selain itu, penggunaan Programmed I/O juga membutuhkan banyak instruksi untuk mengatur transfer data, yang dapat menghasilkan overhead yang signifikan dan memperburuk kinerja sistem secara keseluruhan.
+          </p>
+          <h3>Proses :</h3>
+          <ul>
+            <li>CPU melakukan request operasi perintah kepada I/O</li>
+            <li>CPU mempunyai kontrol pada Sensing status, Read/write commands, dan Transfer data I/O</li>
+            <li>CPU memberi alamat, menentukan modul I/O dan perangkat peripheral</li>
+            <li>Modul I/O menjalankan operasi</li>
+            <li>Modul I/O memberikan status bits</li>
+            <li>Modul I/O tidak dapat melakukan interupsi kepada CPU</li>
+            <li>CPU memeriksa status bits secara periodik (I/O module memberikan informasi secara langsung ke CPU)</li>
+          </ul>
+          <h3>Interrupt-Driven I/O</h3>
+          <ul>
+            <li>CPU mengeluarkan perintah pada modul I/O, di saat yang sama CPU akan melakukan perintah lainnya. Setelah modul I/O selesai menjalankan instruksi, modul I/O akan melakukan interupsi pada CPU bahwa tugasnya telah selesai.</li>
+            <li>
+              CPU melakukan multitasking beberapa perintah sekaligus, sehingga tidak ada waktu tunggu bagi CPU saat transfer data.Hal ini memungkinkan CPU untuk terus mengerjakan tugas-tugasnya tanpa harus menunggu operasi I/O selesai.
+              Namun, penggunaan Programmed I/O juga memiliki beberapa kelemahan.
+            </li>
+            <li>
+              Salah satu kelemahan utamanya adalah overhead yang tinggi pada CPU karena CPU harus melakukan polling secara terus-menerus untuk memastikan apakah operasi I/O sudah selesai. Hal ini dapat mengakibatkan penggunaan CPU yang
+              tidak efisien dan membatasi kinerja sistem secara keseluruhan.
+            </li>
+          </ul>
+          <h3>Proses:</h3>
+          <ul>
+            <li>I/O controller menerima perintah, misal read.</li>
+            <li>I/O controller melaksanakan perintah pembacaan dari peripheral dan meletakkan paket data ke register data I/O controller, sementara CPU mengerjakan yg lain</li>
+            <li>I/O controller mengeluarkan sinyal interupsi ke CPU melalui saluran kontrol.</li>
+            <li>CPU meminta data.</li>
+            <li>Modul meletakkan data pada bus data dan modul siap menerima perintah selanjutnya.</li>
+          </ul>
+          <h3>Direct Memory Access (DMA)</h3>
+          <p>
+            Direct Memory Access (DMA) adalah metode transfer data antara perangkat peripheral dan memori komputer yang dilakukan tanpa melibatkan CPU. DMA memungkinkan perangkat peripheral untuk melakukan transfer data langsung ke atau
+            dari memori tanpa melalui CPU, sehingga membebaskan CPU dari tugas transfer data dan memungkinkan CPU untuk melakukan tugas-tugas lainnya selama transfer data berlangsung.
+          </p>
+          <h3>Proses :</h3>
+          <ul>
+            <li>CPU mememberikan perintah ke modul DMA ( Read / write, Alamat perangkat I/O , Lokasi awal memori, jumlah word )</li>
+            <li>CPU melanjutkan pekerjaan lainnya</li>
+            <li>Modul DMA memindahkan seluruh blok data secara langsung ke memori tanpa harus melalui CPU.</li>
+            <li>Modul DMA mengirimkan signal interrupt ke CPU</li>
+            <li>CPU dapat menjalankan proses lainnya</li>
+          </ul>
+          <h3>DMA configuration</h3>
+          <p>DMA configuration adalah pengaturan sistem DMA yang terdiri dari beberapa parameter yang harus diatur agar DMA dapat beroperasi dengan baik. Berikut adalah beberapa poin penting dalam DMA configuration:</p>
+          <ol>
+            <li>DMA Channel: Setiap DMA controller memiliki beberapa saluran DMA yang dapat digunakan untuk transfer data. Konfigurasi DMA harus menentukan saluran DMA yang akan digunakan untuk setiap transfer.</li>
+            <li>Alamat sumber dan tujuan: DMA configuration juga harus menentukan alamat sumber dan tujuan untuk transfer data. Ini mengacu pada lokasi memori atau perangkat I/O tempat data akan ditulis atau dibaca selama transfer.</li>
+            <li>
+              Mode transfer: Ada dua mode transfer DMA, yaitu mode blok dan mode siklus. Mode blok adalah transfer DMA satu kali dari blok data yang besar, sedangkan mode siklus adalah transfer DMA berulang kali dari blok data yang lebih
+              kecil.
+            </li>
+            <li>Ukuran transfer: Ukuran transfer DMA harus ditentukan agar DMA controller tahu berapa banyak data yang harus ditransfer. Ukuran transfer dapat diatur dalam byte, kata, atau double kata.</li>
+            <li>Alamat sinkronisasi: DMA controller juga memerlukan alamat sinkronisasi yang akan diaktifkan ketika transfer selesai. Ini memungkinkan CPU untuk mengetahui kapan transfer DMA telah selesai.</li>
+            <li>Prioritas DMA: Jika lebih dari satu saluran DMA digunakan, maka prioritas DMA harus ditentukan untuk menentukan saluran mana yang akan digunakan terlebih dahulu.</li>
+            <li>Jenis transfer: DMA configuration juga harus menentukan jenis transfer yang akan dilakukan. Transfer dapat berupa baca tulis dari memori ke perangkat I/O atau sebaliknya.</li>
+            <li>Mode interupsi: DMA configuration juga harus menentukan mode interupsi DMA. DMA dapat menghasilkan interupsi setelah transfer selesai atau setiap kali sejumlah data ditransfer.</li>
+          </ol>
+          <h3>I/O Controller dan I/O Driver</h3>
+          <p>Untuk menggunakan peripheral dibutuhkan 2 modul yaitu:</p>
+          <ol>
+            <li><b>Modul hardware (I/O Controller) : </b></li>
+            <p>Interface (antarmuka) peripheral device ke sistem (CPU/memori).</p>
+            <img src="hardware.png" alt="Modul Hardware" />
+            <li><b>Modul Software </b></li>
+            <p>Menyampaikan sejumlah perintah (command) ke I/O controller untuk melakukan operasi I/O.</p>
+            <img src="software.png" alt="Modul Software" />
+          </ol>
+          <h3>Fungsi I/O Controller (I/O Module)</h3>
+          <p>
+            Interface Bus system yang dimaksud adalah bus controller atau biasa disebut sebagai bus bridge. Bus controller berperan sebagai central switch yang mengontrol dan mengatur komunikasi antara perangkat-perangkat peripheral (I/O
+            device) dengan bus system, serta antara peripheral dengan memori utama atau register CPU. Bus controller memiliki saluran data, alamat, dan kontrol, yang digunakan untuk mentransfer informasi antara komponen-komponen tersebut
+          </p>
+          <ul>
+            <li>Control & timing :</li>
+            <p>Mengatur sistem keseluruhan dengan mensinkronkan kerja komponen komputer.</p>
+            <li>Data Buffering</li>
+            <p>Menyesuaikan perbedaan kecepatan transfer data antara perangkat peripheral dengan CPU.</p>
+            <li>Error Detection</li>
+            <p>Proses pada modul I/O dalam melaporkan kesalahan perangkat peripheral.</p>
+            <li>CPU Communication</li>
+            <p>Fungsi komunikasi antara CPU dan modul I/O dengan melibatkan control and timing arbitrasi bus.</p>
+            <li>Device Communication</li>
+            <p>Kontrol pemindahan data dari peripheral ke CPU melalui sebuah modul I/O.</p>
+          </ul>
+          <h3>Contoh operasi I/O driver:</h3>
+          <ul>
+            <li>mencetak baris melalui printer</li>
+            <li>membaca file dari floppy disk</li>
+            <li>menampilkan isi dari suatu lokasi memori</li>
+            <li>menyimpan isi memori ke hard disk</li>
+            <li>Membaca input dari keyboard</li>
+            <li>Mengirim data melalui jaringan (network)</li>
+            <li>Mengakses perangkat USB seperti flash drive atau mouse</li>
+          </ul>
+          <h3>Skema perangkat peripheral</h3>
+          <img src="sistem-peripheral.png" alt="Skema Peripheral" />
+          <p>transduser adalah alat yang dapat mengubah satu bentuk energi ke bentuk energi lain dan buffer berfungsi untuk menampung sementara.</p>
+
+          <h4>Sumber referensi :</h4>
+          <a href="https://www.ismynr.xyz/2018/02/organisasi-arsiterktur-komputer.html">https://www.ismynr.xyz/2018/02/organisasi-arsiterktur-komputer.html</a>
+          <a href="https://slideplayer.info/slide/2980917/">https://slideplayer.info/slide/2980917/</a>
         </div>
         <div class="col-md-4">
           <h3>Related Articles</h3>
