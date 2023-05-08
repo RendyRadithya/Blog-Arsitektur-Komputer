@@ -119,3 +119,44 @@ footer p {
   margin: 0;
   text-align: center;
 }
+
+/* CSS untuk tampilan layar seluler */
+@media screen and (max-width: 768px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  #navbar ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #navbar li {
+    margin: 10px;
+  }
+
+  #footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #about .col-lg-4 {
+    margin-bottom: 20px;
+  }
+
+  #about img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  #about h4,
+  #about p {
+    text-align: center;
+  }
+}
