@@ -119,17 +119,18 @@
           </ul>
           <h3>Element Perancangan bus</h3>
           <p>
-            Elemen perancangan bus pada arsitektur komputer terdiri dari beberapa komponen, yaitu bus data, bus alamat, control bus, dan timing. Bus data adalah saluran yang digunakan untuk mentransfer data dari satu perangkat ke perangkat
-            lain. Bus alamat adalah saluran yang digunakan untuk mentransfer alamat memori atau alamat port I/O untuk diakses oleh CPU atau perangkat lainnya. Control bus adalah saluran yang digunakan untuk mengontrol bus data, bus alamat,
-            dan perangkat-perangkat dalam sistem komputer. Sedangkan timing adalah mekanisme yang digunakan untuk mengatur kecepatan transfer data antar perangkat pada bus.
+            Elemen perancangan bus pada arsitektur komputer terdiri dari beberapa komponen, yaitu : <b>bus data</b>, <b>bus alamat</b>, <b>control bus</b>, <b>dan timing</b>.
+        <ul>
+            <li>Bus data adalah saluran yang digunakan untuk mentransfer data
+                 dari satu perangkat ke perangkat lain.</li>
+            <li>Bus alamat adalah saluran yang digunakan untuk mentransfer alamat memori atau alamat port I/O untuk  diakses oleh CPU atau perangkat lainnya. </li>
+            <li>Control bus adalah saluran yang digunakan untuk mengontrol bus data, bus alamat, dan perangkat-perangkat dalam sistem komputer. </li>
+             <li>Timing adalah mekanisme yang digunakan untuk mengatur kecepatan transfer data antar perangkat pada bus.</li>
+        </ul>
           </p>
           <p>
             Selain itu, elemen perancangan bus juga dapat meliputi parameter dasar perancangan bus seperti lebar bus, jenis transfer data, dan metode arbitrasi. Lebar bus adalah jumlah bit yang dapat ditransfer pada satu waktu, sedangkan
             jenis transfer data adalah jenis operasi yang dilakukan pada bus seperti read, write, read-modify-write, dan lain-lain. Metode arbitrasi digunakan untuk menentukan prioritas antara perangkat yang menggunakan bus.
-          </p>
-          <p>
-            Semua elemen perancangan bus harus dirancang secara matang untuk memastikan bahwa bus dapat bekerja secara efektif dan sesuai dengan kebutuhan sistem komputer. Kesalahan dalam merancang bus dapat menyebabkan kinerja sistem
-            komputer yang buruk dan dapat menghambat operasi sistem secara keseluruhan. Oleh karena itu, pemilihan dan desain elemen perancangan bus sangat penting dalam arsitektur komputer.
           </p>
           <h3>Jenis - jenis Bus</h3>
           <ul>
@@ -141,21 +142,22 @@
             Dedicated bus adalah jenis bus pada arsitektur komputer yang dirancang untuk tujuan tertentu atau spesifik. Bus ini hanya digunakan untuk satu fungsi atau tujuan saja. Contohnya adalah bus yang digunakan untuk mentransfer data
             dari hard disk ke CPU pada komputer desktop atau laptop.
           </p>
-          <p>
-            Keuntungan dari dedicated bus adalah kinerja yang lebih cepat dan efisien karena bus hanya digunakan untuk tujuan tertentu dan tidak digunakan untuk keperluan lainnya. Selain itu, dedicated bus dapat mengurangi kemungkinan
-            konflik atau persaingan antara perangkat yang menggunakan bus. Namun, kelemahan dari dedicated bus adalah tidak fleksibel dan hanya digunakan untuk tujuan yang telah ditentukan sebelumnya, sehingga tidak dapat digunakan untuk
-            tujuan lain tanpa perubahan perancangan yang signifikan.
-          </p>
+          <p>Dedicated bus atau bus yang didedikasikan untuk suatu tujuan tertentu memiliki beberapa keuntungan, di antaranya:</p>
+          <ul>
+            <li>Kecepatan transfer data yang lebih tinggi: Karena dedicated bus hanya digunakan untuk tujuan tertentu, maka kecepatan transfer data pada bus tersebut biasanya lebih tinggi dibandingkan dengan bus yang digunakan secara bersamaan oleh beberapa perangkat.</li>
+            <li>Penanganan beban lebih mudah: Dengan menggunakan dedicated bus, perangkat yang terhubung ke bus tersebut dapat dengan mudah ditentukan dan diatur prioritasnya dalam melakukan transfer data, sehingga beban kerja pada bus dapat lebih mudah ditangani.</li>
+            <li>Lebih aman dan handal: Dengan menggunakan dedicated bus, risiko terjadinya konflik antar perangkat dalam melakukan transfer data dapat dikurangi atau bahkan dihilangkan, sehingga membuat bus menjadi lebih aman dan handal.</li>
+          </ul>
           <h3>Multiplexed Bus</h3>
           <p>
             Multiplexed bus adalah jenis bus pada arsitektur komputer yang digunakan untuk mentransfer data, alamat, dan sinyal kontrol melalui satu saluran fisik. Pada bus multiplexed, saluran fisik dapat digunakan secara bergantian oleh
             beberapa sinyal, sehingga memungkinkan beberapa sinyal untuk digunakan pada waktu yang sama.
           </p>
-          <p>
-            Keuntungan dari multiplexed bus adalah fleksibilitas dalam penggunaan saluran fisik yang terbatas dan menghemat jumlah saluran fisik yang diperlukan. Selain itu, multiplexed bus juga dapat digunakan untuk tujuan yang
-            berbeda-beda dengan hanya mengubah format paket data yang dikirimkan. Namun, kelemahan dari multiplexed bus adalah kompleksitas perancangan dan waktu yang dibutuhkan untuk mengirim dan menerima data lebih lama dibandingkan
-            dengan dedicated bus.
-          </p>
+        <ul>
+            <li>Hemat penggunaan pin pada CPU: Dalam bus multiplexed, beberapa saluran (channel) dapat digunakan untuk mengirimkan alamat dan data secara bergantian. Hal ini memungkinkan penggunaan pin pada CPU lebih hemat, karena tidak seluruh saluran (channel) akan digunakan pada satu waktu.</li>
+            <li>Menambah kapasitas data transfer: Dalam bus multiplexed, saluran data dapat digunakan secara bergantian dengan saluran alamat. </li>
+            <li>Mudah dikembangkan: Bus multiplexed relatif mudah dikembangkan karena dapat dilakukan dengan cara menyederhanakan jalur data dan alamat. </li>
+        </ul>
           <h3>Metode Arbitrasi</h3>
           <p>
             Metode tersentralisasi pada perancangan bus mengandalkan satu pengontrol bus sentral atau arbiter untuk mengatur penggunaan bus oleh modul. Pengontrol bus sentral atau arbiter bertanggung jawab untuk memilih modul mana yang akan
@@ -163,26 +165,19 @@
             pengontrol bus sentral akan memutuskan modul mana yang memiliki prioritas untuk mengakses bus terlebih dahulu.
           </p>
           <h3>Metode Timing-Asinkron</h3>
-          <p>
-            Metode Timing-Asinkron merupakan salah satu model pewaktuan yang digunakan dalam bus. Dalam metode ini, terjadinya event pada bus ditentukan oleh sebuah pewaktu yang sering disebut dengan clock. Setiap kali terjadi perubahan
-            siklus clock, maka terjadi transmisi 1-0 yang disebut dengan siklus waktu atau siklus bus. Semua perangkat modul pada bus dapat membaca atau mengetahui siklus clock yang terjadi. Model ini mudah diimplementasikan dan cukup
-            cepat, namun kurang fleksibel dalam menangani peralatan dengan kecepatan operasi yang berbeda. Oleh karena itu, model ini biasanya digunakan pada modul-modul yang sudah memiliki karakteristik yang jelas.
-          </p>
-          <p>
-            Meskipun memiliki kekurangan dalam menangani peralatan dengan kecepatan operasi yang berbeda, namun model pewaktuan sinkron cukup efektif dalam mengatasi masalah sinkronisasi data pada sistem. Dalam penggunaannya, dibutuhkan
-            koordinasi yang baik antara pengguna bus dan modul-modul yang terhubung pada bus, sehingga dapat meminimalkan terjadinya masalah pada sistem. Dalam pengaplikasiannya, metode pewaktuan sinkron banyak digunakan pada modul-modul
-            yang memiliki kecepatan operasi yang relatif sama, seperti pada penggunaan bus pada sebuah sistem mikroprosesor atau sistem mikrokontroler.
-          </p>
+         <ul>
+            <li>Metode Timing-Asinkron adalah metode pengiriman data di mana pengiriman dilakukan secara bebas waktu atau tidak terikat oleh clock atau sinyal timing yang ditentukan oleh master.</li>
+            <li>Metode ini memungkinkan setiap perangkat untuk mengambil dan mengirim data pada waktu yang berbeda-beda, sehingga meminimalkan konflik dan kegagalan dalam transfer data.</li>
+            <li>Dalam metode ini, setiap perangkat dalam sistem memiliki sinyal kontrol khusus untuk memulai dan menghentikan pengiriman data. Ketika sinyal ini diaktifkan, perangkat dapat mengirim atau menerima data pada waktu yang diinginkan.</li>
+            <li>Metode Timing-Asinkron digunakan pada banyak perangkat elektronik, seperti keyboard, mouse, printer, dan sebagainya. </li>
+            <li>Keuntungan lain dari metode Timing-Asinkron adalah bahwa ia memungkinkan pengiriman data secara fleksibel tanpa harus mempertimbangkan kecepatan clock yang berbeda pada masing-masing perangkat. Namun, metode ini juga memiliki kelemahan dalam hal kecepatan transfer data yang lebih lambat dibandingkan dengan metode sinkron.</li>
+         </ul>
           <h3>Lebar Bus</h3>
-          <p>
-            Lebar bus merupakan jumlah saluran atau jalur data yang tersedia pada sebuah bus. Lebar bus ini digunakan untuk menentukan berapa banyak bit data yang dapat ditransfer dalam satu waktu pada bus tersebut. Misalnya, jika suatu bus
-            memiliki lebar bus 16 bit, maka pada setiap siklus clock atau periode transfer data, bus tersebut dapat mentransfer 16 bit data secara bersamaan.
-          </p>
-          <p>
-            Lebar bus dapat dibedakan menjadi tiga jenis, yaitu lebar bus alamat, lebar bus data, dan lebar bus kontrol. Lebar bus alamat menentukan jumlah bit yang digunakan untuk mengalamatkan lokasi memori atau perangkat I/O, sedangkan
-            lebar bus data menentukan jumlah bit data yang dapat ditransfer pada setiap siklus bus. Lebar bus kontrol, di sisi lain, menentukan jumlah bit yang digunakan untuk mengontrol operasi bus, seperti sinyal start atau stop pada
-            transfer data. Semakin lebar bus, semakin banyak bit data yang dapat ditransfer secara bersamaan, namun juga semakin kompleks dan mahal desainnya.
-          </p>
+         <ul>
+            <li>Lebar bus menentukan berapa banyak bit yang dapat ditransfer dalam satu siklus clock. Semakin lebar bus, semakin banyak bit yang dapat ditransfer dan semakin cepat transfer data antar perangkat.</li>
+            <li>Lebar bus juga mempengaruhi performa sistem secara keseluruhan. Jika lebar bus terlalu kecil, transfer data antar perangkat akan menjadi lebih lambat dan dapat menghambat kinerja sistem.</li>
+            <li>Lebar bus biasanya diukur dalam bit dan dapat memiliki nilai yang berbeda, seperti 8 bit, 16 bit, 32 bit, atau bahkan lebih. Lebar bus yang lebih besar membutuhkan kabel yang lebih banyak dan dapat meningkatkan biaya produksi sistem.</li>
+         </ul>
           <h3>Jenis - jenis transfer data</h3>
           <p>
             Operasi transfer data pada komputer merupakan proses penting yang memungkinkan pertukaran data antara berbagai modul komputer. Pada operasi baca (read), data diambil dari memori dan ditransfer ke CPU. Sebaliknya, pada operasi
