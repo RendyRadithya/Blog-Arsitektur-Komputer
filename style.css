@@ -1,6 +1,6 @@
 /* Navbar */
 .navbar {
-  padding: 10px;
+  padding: 8px;
 }
 
 .navbar-brand {
@@ -12,12 +12,16 @@
   margin-right: 15px;
 }
 
+img {
+  max-width: 70%;
+}
+
 /* Hero Page */
 #hero {
   background-image: url("foto2.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +41,8 @@ h2 {
 
 p,
 ul,
-ol {
+ol,
+.referensi {
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -80,7 +85,7 @@ footer {
 
 #about {
   background-color: #dee2e6;
-  padding: 80px 0;
+  padding: 30px 0;
 }
 
 #about h2 {
@@ -121,7 +126,7 @@ footer p {
 }
 
 /* CSS untuk tampilan layar seluler */
-@media screen and (max-width: 768px) {
+/* @media screen and (min-width: 480px) {
   #navbar {
     display: flex;
     flex-direction: column;
@@ -158,5 +163,210 @@ footer p {
   #about h4,
   #about p {
     text-align: center;
+  }
+} */
+
+/* CSS untuk tampilan layar seluler */
+@media screen and (max-width: 767px) {
+  /* Aturan CSS untuk hero section */
+  #hero {
+    text-align: center;
+    padding: 100px 20px;
+  }
+
+  #hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  #hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Aturan CSS untuk navbar */
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navbar li {
+    margin: 0 10px;
+  }
+
+  #navbar a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  }
+
+  /* Aturan CSS untuk about section */
+  #about {
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  #about .col-lg-4 {
+    margin-bottom: 20px;
+  }
+
+  #about img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  #about h4,
+  #about p {
+    text-align: center;
+  }
+
+  /* Aturan CSS untuk footer */
+  #footer {
+    padding: 20px;
+  }
+}
+
+/* CSS untuk tampilan layar yang lebih besar */
+@media screen and (min-width: 768px) {
+  /* Tampilan layar seluler */
+  @media (max-width: 767px) {
+    /* Menghilangkan tombol navbar */
+    .navbar-toggler {
+      display: none;
+    }
+
+    /* Membuat hamburger menu */
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: static;
+      float: none;
+      width: 100%;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      box-shadow: none;
+    }
+
+    /* Mengatur tampilan hamburger menu */
+    .navbar-collapse {
+      display: block !important;
+      position: fixed;
+      top: 56px; /* Tambahkan jarak dengan navbar */
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 9999;
+      background: #343a40; /* Warna latar belakang hamburger menu */
+      overflow-y: auto;
+    }
+
+    .navbar-nav {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar-nav > li {
+      display: block;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-nav > li > a {
+      display: block;
+      color: #fff;
+      padding: 10px 15px;
+    }
+
+    .navbar-nav > li > a:hover,
+    .navbar-nav > li > a:focus {
+      color: #fff;
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-collapse.in {
+      overflow-y: visible;
+    }
+
+    /* Aturan CSS untuk hero section */
+    #img {
+      width: 50%;
+    }
+    #hero {
+      text-align: center;
+      padding: 150px 20px;
+      width: 100%;
+    }
+
+    #hero h1 {
+      font-size: 60px;
+      margin-bottom: 30px;
+    }
+
+    #hero p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    /* Aturan CSS untuk navbar */
+    #navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    #navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    #navbar li {
+      margin: 0 10px;
+    }
+
+    #navbar a {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+    }
+
+    /* Aturan CSS untuk about section */
+    #about {
+      padding: 150px 20px;
+      text-align: center;
+      width: 100%;
+    }
+
+    #about .col-lg-4 {
+      margin-bottom: 20px;
+    }
+
+    #about img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      max-width: 50%;
+    }
+
+    #about h4,
+    #about p {
+      text-align: center;
+    }
+
+    /* Aturan CSS untuk footer */
+    #footer {
+      padding: 20px;
+      width: 100%;
+    }
   }
 }
